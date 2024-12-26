@@ -1,0 +1,195 @@
+/* @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Londrina+Sketch&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+     background-image: url(https://www.zastavki.com/pictures/originals/2019Christmas_wallpapers_Santa_Claus_flies_over_a_snowy_house_for_Christmas_138043_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+
+header {
+    background-color: lightblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.home, .catalog, .about-us, .sign-up, .login {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.arrow {
+    position: fixed;
+    top: 70vh;
+    left: 3%;
+    width: 50px;
+    background: white;
+    padding: 10px;
+    border-radius: 100px;
+    transition: all 0.5s;
+}
+
+
+
+
+select {
+    background-color: transparent;
+    list-style: none;
+    border: none;
+    color: white;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+.title {
+    font-family: "Dancing Script", serif;
+    font-size: 50px;
+    position: absolute;
+    left: 565px;
+    top: 280px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.subtitle {
+    position: absolute;
+    top: 390px;
+    font-size: 20px;
+    left: 400px;
+    font-family: "Montserrat", serif;
+}
+
+.shop-now-title {
+    position: absolute;
+    top: 392px;
+    right: 340px;
+    color: white;
+    font-family: "Montserrat", serif;
+    transition-duration: .3s;
+}
+
+.shop-now-title:hover {
+    color: gold;
+}
+
+
+.footer {
+    background-color: #de2329;
+    color: white;
+    padding: 40px;
+    margin-top: 800px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1{
+    font-weight: normal;
+    font-size: 60px;
+    margin: -150px  0   40px;
+}
+.countdown{
+    display: flex;
+    transform: scale(2);
+
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.time h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+
+
+@media(max-width:500px) {
+    h1{
+        font-size: 45px;
+
+    }
+    .time{
+        margin:5px;
+    }
+    .time h2{
+        font-size: 12px;
+
+    }
+    .time small{
+        font-size: 10px;
+    }
+} */
